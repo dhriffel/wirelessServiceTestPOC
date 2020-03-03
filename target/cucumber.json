@@ -1,0 +1,977 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13003400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The following Subscribers are in the database",
+            "match": {
+              "location": "stepDefinitions.theFollowingSubscribersAreInTheDatabase(Integer,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "Dan"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "Jim"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "Harry"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-03T15:49:06.592Z",
+        "line": 16,
+        "name": "Adding a subscriber to the database",
+        "description": "",
+        "id": "subscriber-database;adding-a-subscriber-to-the-database;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 204100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"Mitch\" subscribes with number 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mitch\"",
+                  "offset": 0
+                },
+                {
+                  "val": "5",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.name_subscribes_with_number(String,Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Number 5 is not already taken",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.number_is_not_already_taken(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "5 is added to the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.they_are_added_to_the_database(Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "5 is present in the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 0
+                },
+                {
+                  "val": "present",
+                  "offset": 5
+                }
+              ],
+              "location": "stepDefinitions.they_are_present_in_the_database(Integer,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 506300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The following Subscribers are in the database",
+            "match": {
+              "location": "stepDefinitions.theFollowingSubscribersAreInTheDatabase(Integer,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "Dan"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "Jim"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "Harry"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-03T15:49:06.654Z",
+        "line": 17,
+        "name": "Adding a subscriber to the database",
+        "description": "",
+        "id": "subscriber-database;adding-a-subscriber-to-the-database;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 90700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"Lewis\" subscribes with number 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lewis\"",
+                  "offset": 0
+                },
+                {
+                  "val": "4",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.name_subscribes_with_number(String,Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Number 4 is not already taken",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.number_is_not_already_taken(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "4 is added to the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.they_are_added_to_the_database(Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "4 is present in the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 0
+                },
+                {
+                  "val": "present",
+                  "offset": 5
+                }
+              ],
+              "location": "stepDefinitions.they_are_present_in_the_database(Integer,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 380400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The following Subscribers are in the database",
+            "match": {
+              "location": "stepDefinitions.theFollowingSubscribersAreInTheDatabase(Integer,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "Dan"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "Jim"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "Harry"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-03T15:49:06.658Z",
+        "line": 25,
+        "name": "Remove a subscriber from the database",
+        "description": "",
+        "id": "subscriber-database;remove-a-subscriber-from-the-database;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 121300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "3 is present in the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 0
+                },
+                {
+                  "val": "present",
+                  "offset": 5
+                }
+              ],
+              "location": "stepDefinitions.they_are_present_in_the_database(Integer,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "3 is removed from the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.numIsRemovedFromTheDatabase(Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "3 is not present in the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 0
+                },
+                {
+                  "val": "not present",
+                  "offset": 5
+                }
+              ],
+              "location": "stepDefinitions.they_are_present_in_the_database(Integer,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 401800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The following Subscribers are in the database",
+            "match": {
+              "location": "stepDefinitions.theFollowingSubscribersAreInTheDatabase(Integer,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "Dan"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "Jim"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "Harry"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-03T15:49:06.662Z",
+        "line": 26,
+        "name": "Remove a subscriber from the database",
+        "description": "",
+        "id": "subscriber-database;remove-a-subscriber-from-the-database;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 81600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "12 is not present in the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 0
+                },
+                {
+                  "val": "not present",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.they_are_present_in_the_database(Integer,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "12 is removed from the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.numIsRemovedFromTheDatabase(Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "12 is not present in the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 0
+                },
+                {
+                  "val": "not present",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinitions.they_are_present_in_the_database(Integer,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 445700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The following Subscribers are in the database",
+            "match": {
+              "location": "stepDefinitions.theFollowingSubscribersAreInTheDatabase(Integer,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "Dan"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "Jim"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "Harry"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-03T15:49:06.665Z",
+        "line": 34,
+        "name": "Updating a current Subscriber",
+        "description": "",
+        "id": "subscriber-database;updating-a-current-subscriber;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 148000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "1 is present in the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 0
+                },
+                {
+                  "val": "present",
+                  "offset": 5
+                }
+              ],
+              "location": "stepDefinitions.they_are_present_in_the_database(Integer,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "1 number is updated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 0
+                },
+                {
+                  "val": "number",
+                  "offset": 2
+                }
+              ],
+              "location": "stepDefinitions.theirInfoIsUpdated(Integer,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "1 number has changed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 0
+                },
+                {
+                  "val": "number",
+                  "offset": 2
+                }
+              ],
+              "location": "stepDefinitions.numSInfoHasChanged(Integer,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 364300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The following Subscribers are in the database",
+            "match": {
+              "location": "stepDefinitions.theFollowingSubscribersAreInTheDatabase(Integer,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "Dan"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "Jim"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "Harry"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-03T15:49:06.668Z",
+        "line": 35,
+        "name": "Updating a current Subscriber",
+        "description": "",
+        "id": "subscriber-database;updating-a-current-subscriber;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 80900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "3 is present in the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 0
+                },
+                {
+                  "val": "present",
+                  "offset": 5
+                }
+              ],
+              "location": "stepDefinitions.they_are_present_in_the_database(Integer,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "3 name is updated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 0
+                },
+                {
+                  "val": "name",
+                  "offset": 2
+                }
+              ],
+              "location": "stepDefinitions.theirInfoIsUpdated(Integer,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "3 name has changed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 0
+                },
+                {
+                  "val": "name",
+                  "offset": 2
+                }
+              ],
+              "location": "stepDefinitions.numSInfoHasChanged(Integer,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 366300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The following Subscribers are in the database",
+            "match": {
+              "location": "stepDefinitions.theFollowingSubscribersAreInTheDatabase(Integer,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "Dan"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "Jim"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "Harry"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-03T15:49:06.671Z",
+        "line": 36,
+        "name": "Updating a current Subscriber",
+        "description": "",
+        "id": "subscriber-database;updating-a-current-subscriber;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 127300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "3 is present in the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 0
+                },
+                {
+                  "val": "present",
+                  "offset": 5
+                }
+              ],
+              "location": "stepDefinitions.they_are_present_in_the_database(Integer,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "3 phone is updated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 0
+                },
+                {
+                  "val": "phone",
+                  "offset": 2
+                }
+              ],
+              "location": "stepDefinitions.theirInfoIsUpdated(Integer,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "3 phone has changed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 0
+                },
+                {
+                  "val": "phone",
+                  "offset": 2
+                }
+              ],
+              "location": "stepDefinitions.numSInfoHasChanged(Integer,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 442500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The following Subscribers are in the database",
+            "match": {
+              "location": "stepDefinitions.theFollowingSubscribersAreInTheDatabase(Integer,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "Dan"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "Jim"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "Harry"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-03T15:49:06.674Z",
+        "line": 37,
+        "name": "Updating a current Subscriber",
+        "description": "",
+        "id": "subscriber-database;updating-a-current-subscriber;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 68300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "9 is not present in the database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 0
+                },
+                {
+                  "val": "not present",
+                  "offset": 5
+                }
+              ],
+              "location": "stepDefinitions.they_are_present_in_the_database(Integer,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "9 number is updated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 0
+                },
+                {
+                  "val": "number",
+                  "offset": 2
+                }
+              ],
+              "location": "stepDefinitions.theirInfoIsUpdated(Integer,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "9 number has changed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 0
+                },
+                {
+                  "val": "number",
+                  "offset": 2
+                }
+              ],
+              "location": "stepDefinitions.numSInfoHasChanged(Integer,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Subscriber Database",
+    "description": "",
+    "id": "subscriber-database",
+    "keyword": "Feature",
+    "uri": "classpath:me/dhriffel/wirelessservice/subscriberDatabase.feature",
+    "tags": []
+  }
+]
